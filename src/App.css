@@ -149,7 +149,7 @@ nav a:hover {
   color: #9b6cff;
 }
 
-.hero-content > p {
+.hero-content>p {
   max-width: 610px;
   color: #9da0ad;
   font-size: 18px;
@@ -297,7 +297,7 @@ nav a:hover {
 }
 
 .section-heading h2 {
-  font-size: clamp(38px, 5vw, 58px);
+  font-size: clamp(38px, 5vw, 48px);
   letter-spacing: -2px;
   line-height: 1;
 }
@@ -365,15 +365,16 @@ nav a:hover {
 
 .company {
   color: #b48cff;
+  font-weight: 750;
   margin-bottom: 8px;
 }
 
 .date {
   color: #777b87;
-  font-size: 14px;
+  font-size: 12px;
 }
 
-.experience-item > p {
+.experience-item>p {
   color: #999ca8;
   line-height: 1.8;
 }
@@ -397,11 +398,9 @@ nav a:hover {
   border-radius: 22px;
 
   background:
-    linear-gradient(
-      145deg,
+    linear-gradient(145deg,
       rgba(155, 108, 255, 0.08),
-      rgba(255, 255, 255, 0.02)
-    );
+      rgba(255, 255, 255, 0.02));
 
   transition: 0.3s ease;
 
@@ -453,7 +452,7 @@ nav a:hover {
    PROJECT CONTENT
 ========================= */
 
-.project-card > span {
+.project-card>span {
   color: #9b6cff;
   font-size: 12px;
   font-weight: 700;
@@ -525,7 +524,7 @@ footer {
     text-align: center;
   }
 
-  .hero-content > p {
+  .hero-content>p {
     margin-left: auto;
     margin-right: auto;
   }
@@ -581,7 +580,7 @@ footer {
     letter-spacing: -2.5px;
   }
 
-  .hero-content > p {
+  .hero-content>p {
     font-size: 16px;
   }
 
@@ -613,6 +612,7 @@ footer {
     font-size: 40px;
   }
 }
+
 /* ------------------------------------------------------------------------- */
 /* =========================
    HERO SIZE FIX
@@ -639,7 +639,7 @@ footer {
   margin-bottom: 22px;
 }
 
-.hero-content > p {
+.hero-content>p {
   font-size: 17px;
   line-height: 1.65;
   margin-bottom: 32px;

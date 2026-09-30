@@ -130,11 +130,11 @@ function App() {
             </div>
 
             <p className="section-text">
-              I am a UI/UX Frontend Developer with 9+ years of experience
-              creating responsive and user-focused web interfaces and
-              frontend applications. I combine UI design skills with
-              practical frontend development to create clean and usable
-              digital experiences.
+              I am a UI/UX Frontend Developer with 9+ years of experience creating 
+              responsive and user-focused web interfaces and frontend applications. 
+              I have 3+ years of experience in React and 2+ years in Angular, 
+              combining UI design skills with practical frontend development to 
+              create clean and usable digital experiences.
             </p>
           </div>
         </section>
@@ -174,8 +174,8 @@ function App() {
               </div>
 
               <div className="skill-card">
-                <h3>Figma</h3>
-                <p>Wireframes & UI Design</p>
+                <h3>React Native</h3>
+                <p>Mobile Frontend Development</p>
               </div>
             </div>
           </div>
@@ -186,7 +186,7 @@ function App() {
           <div className="section-container">
             <div className="section-heading">
               <span>CAREER</span>
-              <h2>My experience.</h2>
+              <h2>Experience.</h2>
             </div>
 
             <div className="experience-item">
@@ -215,6 +215,45 @@ function App() {
                 Worked on web design, visual layouts and HTML/CSS/JavaScript
                 implementation, including inner-page design and conversion
                 work.
+              </p>
+            </div>
+
+            <div className="experience-item">
+              <div>
+                <h3>Frontend & UI Work</h3>
+                <p className="company">Onesoft Technologies</p>
+                <span className="date">Feb 2019 — Jul 2020</span>
+              </div>
+
+              <p>
+                Contributed to frontend interfaces for academic management
+                systems and supported UI design and responsive web implementation.
+              </p>
+            </div>
+
+            <div className="experience-item">
+              <div>
+                <h3>Frontend & UI Work</h3>
+                <p className="company">KrisInventa Pvt Ltd</p>
+                <span className="date">Dec 2018 — Feb 2019</span>
+              </div>
+
+              <p>
+                Contributed to frontend interfaces for academic management
+                systems and supported UI design and responsive web implementation.
+              </p>
+            </div>
+
+            <div className="experience-item">
+              <div>
+                <h3>Frontend & UI Work</h3>
+                <p className="company">Apstersoft Technologies</p>
+                <span className="date">Aug 2016 — Nov 2018</span>
+              </div>
+
+              <p>
+                Contributed to frontend interfaces for academic management systems and supported
+                UI design and responsive web implementation.
               </p>
             </div>
           </div>
@@ -264,7 +303,7 @@ function App() {
                   management and business workflows.
                 </p>
 
-                <small>Angular · HTML · CSS · Bootstrap</small>
+                <small>Angular · React · HTML · CSS · Bootstrap</small>
               </div>
 
 
