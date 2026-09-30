@@ -62,6 +62,9 @@ function App() {
             <a href="#experience">Experience</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
+            <a href="/Sruthinlal CV.pdf"
+              download className="nav-cv">Download CV
+            </a>
           </nav>
 
           <a href="#contact" className="nav-button">
@@ -130,10 +133,10 @@ function App() {
             </div>
 
             <p className="section-text">
-              I am a UI/UX Frontend Developer with 9+ years of experience creating 
-              responsive and user-focused web interfaces and frontend applications. 
-              I have 3+ years of experience in React and 2+ years in Angular, 
-              combining UI design skills with practical frontend development to 
+              I am a UI/UX Frontend Developer with 9+ years of experience creating
+              responsive and user-focused web interfaces and frontend applications.
+              I have 3+ years of experience in React and 2+ years in Angular,
+              combining UI design skills with practical frontend development to
               create clean and usable digital experiences.
             </p>
           </div>
