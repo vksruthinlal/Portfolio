@@ -1,5 +1,50 @@
 import "./App.css";
-import profileImage from "./assets/profile.png";
+import profileImage from "./assets/profile.jpg";
+
+import pharmacyMobileHome from "./assets/projects/pharmacy-mobile-home.jpg";
+import pharmacyMobileListing from "./assets/projects/pharmacy-mobile-listing.jpg";
+import pharmacyMobileLogin from "./assets/projects/pharmacy-mobile-login.jpg";
+
+import pharmacyWebDashboard from "./assets/projects/pharmacy-web-dashboard.jpg";
+import pharmacyWebCreate from "./assets/projects/pharmacy-web-create.jpg";
+
+import thinkposDashboard from "./assets/projects/thinkpos-dashboard.jpg";
+import thinkposScreen2 from "./assets/projects/thinkpos-screen2.jpg";
+
+import oxardLogin from "./assets/projects/oxard-login.jpg";
+import oxardDesk from "./assets/projects/oxard-desk.jpg";
+import oxardDependents from "./assets/projects/oxard-dependents.jpg";
+
+const projects = [
+  {
+    title: "Pharmacy Plus",
+    category: "Mobile Application",
+    description:
+      "A pharmacy and healthcare shopping mobile application.",
+  },
+
+  {
+    title: "Pharmacy Plus",
+    category: "Web Application",
+    description:
+      "A pharmacy management web application with dashboard and business workflows.",
+  },
+
+  {
+    title: "ThinkPOS",
+    category: "Web Application",
+    description:
+      "A point-of-sale web application with sales, inventory and restaurant management features.",
+  },
+
+  {
+    title: "Oxard ERP",
+    category: "Mobile Application",
+    description:
+      "An ERP mobile application for employee and business management.",
+  },
+];
+
 
 function App() {
   return (
@@ -184,6 +229,85 @@ function App() {
             </div>
 
             <div className="projects-grid">
+
+              {/* Pharmacy Plus - Mobile */}
+              <div className="project-card project-image-card">
+                <div className="project-image">
+                  <img src={pharmacyMobileHome} alt="Pharmacy Plus Mobile App" />
+                </div>
+
+                <span>01 · MOBILE APPLICATION</span>
+
+                <h3>Pharmacy Plus</h3>
+
+                <p>
+                  A pharmacy and healthcare shopping mobile application
+                  designed for a simple and user-friendly experience.
+                </p>
+
+                <small>React Native · UI/UX</small>
+              </div>
+
+
+              {/* Pharmacy Plus - Web */}
+              <div className="project-card project-image-card">
+                <div className="project-image">
+                  <img src={pharmacyWebDashboard} alt="Pharmacy Plus Web Application" />
+                </div>
+
+                <span>02 · WEB APPLICATION</span>
+
+                <h3>Pharmacy Plus Web</h3>
+
+                <p>
+                  A web application interface designed for pharmacy
+                  management and business workflows.
+                </p>
+
+                <small>Angular · HTML · CSS · Bootstrap</small>
+              </div>
+
+
+              {/* ThinkPOS */}
+              <div className="project-card project-image-card">
+                <div className="project-image">
+                  <img src={thinkposDashboard} alt="ThinkPOS Web Application" />
+                </div>
+
+                <span>03 · WEB APPLICATION</span>
+
+                <h3>ThinkPOS</h3>
+
+                <p>
+                  A POS and business management web application with
+                  sales, inventory and restaurant management workflows.
+                </p>
+
+                <small>UI/UX · Frontend Development</small>
+              </div>
+
+
+              {/* Oxard ERP */}
+              <div className="project-card project-image-card">
+                <div className="project-image">
+                  <img src={oxardDesk} alt="Oxard ERP Mobile Application" />
+                </div>
+
+                <span>04 · MOBILE APPLICATION</span>
+
+                <h3>Oxard ERP</h3>
+
+                <p>
+                  An ERP mobile application for employee information,
+                  HR management and business workflows.
+                </p>
+
+                <small>Mobile UI · Frontend Development</small>
+              </div>
+
+            </div>
+
+            {/* <div className="projects-grid">
               <div className="project-card">
                 <span>01</span>
                 <h3>Pharmacy Plus</h3>
@@ -213,7 +337,7 @@ function App() {
                 </p>
                 <small>HTML · CSS · JavaScript · Bootstrap</small>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
 
