@@ -568,6 +568,7 @@ footer {
   .hero-container {
     grid-template-columns: 1fr;
     gap: 60px;
+    display: block;
   }
 
   .hero-content {
@@ -634,7 +635,7 @@ footer {
   }
 
   .navbar nav.nav-menu a {
-    padding: 12px 0;
+    padding: 12px 12;
   }
 
   .navbar nav.nav-menu .nav-cv {
@@ -643,6 +644,31 @@ footer {
 
   .nav-button {
     display: none;
+  }
+
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-content {
+    width: 100%;
+  }
+
+  .hero-image-area {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .image-card {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
+  .hero-image-area img {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 }
 
