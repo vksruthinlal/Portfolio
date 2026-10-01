@@ -215,9 +215,8 @@ function App() {
               </div>
 
               <p>
-                Worked on web design, visual layouts and HTML/CSS/JavaScript
-                implementation, including inner-page design and conversion
-                work.
+                Worked on responsive web interfaces, HTML/CSS/JavaScript implementation, 
+                UI layouts, and converting design concepts into functional web pages.
               </p>
             </div>
 
@@ -229,8 +228,9 @@ function App() {
               </div>
 
               <p>
-                Contributed to frontend interfaces for academic management
-                systems and supported UI design and responsive web implementation.
+                Developed responsive web interfaces using Angular, React, HTML, CSS and JavaScript. 
+                Worked on ERP, POS and Pharmacy Plus applications, including UI implementation, 
+                API integration and client demonstrations.
               </p>
             </div>
 
@@ -242,21 +242,25 @@ function App() {
               </div>
 
               <p>
-                Contributed to frontend interfaces for academic management
-                systems and supported UI design and responsive web implementation.
+                Developed and maintained responsive frontend interfaces, implemented 
+                UI designs using HTML/CSS/JavaScript, and collaborated on web-based 
+                application development.
               </p>
             </div>
 
             <div className="experience-item">
               <div>
-                <h3>Frontend & UI Work</h3>
+                <h3>Graphic & Web Designer</h3>
                 <p className="company">Apstersoft Technologies</p>
                 <span className="date">Aug 2016 — Nov 2018</span>
               </div>
 
               <p>
-                Contributed to frontend interfaces for academic management systems and supported
-                UI design and responsive web implementation.
+                Created Alibaba product designs and graphic materials, 
+                along with supporting web design and visual layouts. 
+                Worked on frontend development and responsive UI implementation, 
+                converting designs into functional web interfaces using HTML, CSS, 
+                and JavaScript.
               </p>
             </div>
           </div>
