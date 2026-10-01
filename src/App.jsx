@@ -391,17 +391,31 @@ function App() {
               <h2>Let's build something together.</h2>
             </div>
 
-            <p className="section-text">
-              Have a project, opportunity or idea? Let's connect and
-              discuss how I can help.
+            <p className="contact-text">
+              I'm open to new opportunities and frontend development roles.
+              Feel free to get in touch to discuss potential opportunities.
             </p>
 
             <a
-              href="mailto:your-email@example.com"
-              className="primary-button"
+              href="mailto:vksruthinlal@gmail.com"
+              className="contact-btn"
             >
               Get In Touch
             </a>
+
+            <div className="contact-links">
+              <a href="mailto:vksruthinlal@gmail.com">
+                Email
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/sruthin-lal-b0225910a"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
+            </div>
           </div>
         </section>
       </main>

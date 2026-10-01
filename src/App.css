@@ -500,6 +500,22 @@ nav a:hover {
 /* =========================
    CONTACT
 ========================= */
+.contact-links {
+  display: flex;
+  gap: 24px;
+  margin-top: 28px;
+}
+
+.contact-links a {
+  color: #a16cff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.contact-links a:hover {
+  color: #ffffff;
+}
 
 .contact-section {
   padding-bottom: 150px;
