@@ -117,6 +117,25 @@ nav a:hover {
   color: #ffffff;
 }
 
+/* Mobile Menu Button */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: #ffffff;
+  border-radius: 2px;
+}
+
 /* =========================
    HERO
 ========================= */
@@ -582,6 +601,48 @@ footer {
   .experience-item {
     grid-template-columns: 1fr;
     gap: 25px;
+  }
+}
+
+/* Mobile Navigation */
+@media (max-width: 768px) {
+
+  .nav-container {
+    position: relative;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .navbar nav.nav-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 0;
+    padding: 15px 20px;
+    background: #08080c;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .navbar nav.nav-menu.active {
+    display: flex;
+  }
+
+  .navbar nav.nav-menu a {
+    padding: 12px 0;
+  }
+
+  .navbar nav.nav-menu .nav-cv {
+    margin-top: 5px;
+  }
+
+  .nav-button {
+    display: none;
   }
 }
 

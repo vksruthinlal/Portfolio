@@ -15,6 +15,7 @@ import oxardLogin from "./assets/projects/oxard-login.jpg";
 import oxardDesk from "./assets/projects/oxard-desk.jpg";
 import oxardDependents from "./assets/projects/oxard-dependents.jpg";
 
+import { useState } from "react";
 const projects = [
   {
     title: "Pharmacy Plus",
@@ -47,29 +48,50 @@ const projects = [
 
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="app">
       {/* Navbar */}
       <header className="navbar">
         <div className="nav-container">
-          <a href="#home" className="logo">
+
+          <a href="#home" className="logo" onClick={() => setMenuOpen(false)}>
             Sruthinlal<span>.</span>
           </a>
 
-          <nav>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-            <a href="/Sruthinlal CV.pdf"
-              download className="nav-cv">Download CV
+          <nav className={menuOpen ? "nav-menu active" : "nav-menu"}>
+            <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
+            <a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a>
+            <a href="#experience" onClick={() => setMenuOpen(false)}>Experience</a>
+            <a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a>
+            <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
+
+            <a
+              href="/Sruthinlal CV.pdf"
+              download
+              className="nav-cv"
+              onClick={() => setMenuOpen(false)}
+            >
+              Download CV
             </a>
           </nav>
 
           <a href="#contact" className="nav-button">
             Let's Talk
           </a>
+
+          {/* Mobile Menu Button */}
+          <button
+            className="menu-toggle"
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-label="Toggle navigation menu"
+            aria-expanded={menuOpen}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
         </div>
       </header>
 
@@ -215,7 +237,7 @@ function App() {
               </div>
 
               <p>
-                Worked on responsive web interfaces, HTML/CSS/JavaScript implementation, 
+                Worked on responsive web interfaces, HTML/CSS/JavaScript implementation,
                 UI layouts, and converting design concepts into functional web pages.
               </p>
             </div>
@@ -228,8 +250,8 @@ function App() {
               </div>
 
               <p>
-                Developed responsive web interfaces using Angular, React, HTML, CSS and JavaScript. 
-                Worked on ERP, POS and Pharmacy Plus applications, including UI implementation, 
+                Developed responsive web interfaces using Angular, React, HTML, CSS and JavaScript.
+                Worked on ERP, POS and Pharmacy Plus applications, including UI implementation,
                 API integration and client demonstrations.
               </p>
             </div>
@@ -242,8 +264,8 @@ function App() {
               </div>
 
               <p>
-                Developed and maintained responsive frontend interfaces, implemented 
-                UI designs using HTML/CSS/JavaScript, and collaborated on web-based 
+                Developed and maintained responsive frontend interfaces, implemented
+                UI designs using HTML/CSS/JavaScript, and collaborated on web-based
                 application development.
               </p>
             </div>
@@ -256,10 +278,10 @@ function App() {
               </div>
 
               <p>
-                Created Alibaba product designs and graphic materials, 
-                along with supporting web design and visual layouts. 
-                Worked on frontend development and responsive UI implementation, 
-                converting designs into functional web interfaces using HTML, CSS, 
+                Created Alibaba product designs and graphic materials,
+                along with supporting web design and visual layouts.
+                Worked on frontend development and responsive UI implementation,
+                converting designs into functional web interfaces using HTML, CSS,
                 and JavaScript.
               </p>
             </div>
