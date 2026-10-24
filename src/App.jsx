@@ -260,7 +260,7 @@ function App() {
               <div>
                 <h3>Frontend & UI Work</h3>
                 <p className="company">KrisInventa Pvt Ltd</p>
-                <span className="date">Dec 2018 — Feb 2019</span>
+                <span className="date">Dec 2017 — Feb 2019</span>
               </div>
 
               <p>
@@ -274,7 +274,7 @@ function App() {
               <div>
                 <h3>Graphic & Web Designer</h3>
                 <p className="company">Apstersoft Technologies</p>
-                <span className="date">Aug 2016 — Nov 2018</span>
+                <span className="date">Aug 2016 — Nov 2017</span>
               </div>
 
               <p>
