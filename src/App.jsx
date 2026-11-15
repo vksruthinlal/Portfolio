@@ -222,23 +222,31 @@ function App() {
               </div>
 
               <p>
-                Worked on responsive web and mobile interfaces using
-                Angular, React/React Native, HTML, CSS, JavaScript and
-                Bootstrap. Converted designs into reusable UI components
-                and worked on ERP, POS and Pharmacy Plus applications.
+                Developed responsive web applications using React.js, Angular, 
+                React Native, HTML, CSS, JavaScript, and Bootstrap. 
+                Built reusable frontend components, integrated REST APIs, and worked 
+                on ERP, POS, and Pharmacy Plus applications. Focused on responsive 
+                UI development, application performance, debugging, and frontend 
+                issue resolution. Also have basic knowledge of Redux Toolkit 
+                and Zustand for state management.
               </p>
             </div>
 
             <div className="experience-item">
               <div>
                 <h3>Web Designer / Frontend</h3>
-                <p className="company">IPride ERD Pvt Ltd</p>
+                <p className="company">Wynxio Technologies . Trivandrum</p>
                 <span className="date">Nov 2020 – Feb 2023</span>
               </div>
 
               <p>
-                Worked on responsive web interfaces, HTML/CSS/JavaScript implementation,
-                UI layouts, and converting design concepts into functional web pages.
+                Developed web applications using Next.js, React.js, and REST APIs, 
+                building responsive and user-friendly frontend interfaces. 
+                Integrated REST APIs to enable seamless communication between 
+                frontend applications and backend services. Participated in the complete 
+                software development lifecycle (SDLC), including debugging, testing, and deployment, 
+                while collaborating with team members to deliver project-based 
+                solutions and maintain high code quality.
               </p>
             </div>
 
@@ -250,9 +258,11 @@ function App() {
               </div>
 
               <p>
-                Developed responsive web interfaces using Angular, React, HTML, CSS and JavaScript.
-                Worked on ERP, POS and Pharmacy Plus applications, including UI implementation,
-                API integration and client demonstrations.
+                Developed responsive web applications using Angular, HTML, CSS, and Bootstrap. 
+                Contributed to React Native mobile application development. 
+                Built reusable Angular components and services, integrated REST APIs for 
+                dynamic data handling, implemented responsive user interfaces, and resolved UI 
+                bugs while optimizing application performance.
               </p>
             </div>
 
@@ -264,9 +274,10 @@ function App() {
               </div>
 
               <p>
-                Developed and maintained responsive frontend interfaces, implemented
-                UI designs using HTML/CSS/JavaScript, and collaborated on web-based
-                application development.
+                Designed user-friendly web and mobile interfaces using Figma. 
+                Created wireframes, prototypes, and UI mockups to plan and visualize 
+                user experiences. Developed visual assets and graphics using 
+                Adobe Photoshop, and improved user experience through responsive UI designs.
               </p>
             </div>
 
@@ -278,11 +289,10 @@ function App() {
               </div>
 
               <p>
-                Created Alibaba product designs and graphic materials,
-                along with supporting web design and visual layouts.
-                Worked on frontend development and responsive UI implementation,
-                converting designs into functional web interfaces using HTML, CSS,
-                and JavaScript.
+                Designed interactive user interface layouts and prototypes using Figma. 
+                Created banners, icons, and graphic assets using Photoshop. Developed design 
+                systems and reusable UI components, and collaborated with developers 
+                to ensure accurate implementation of designs.
               </p>
             </div>
           </div>
